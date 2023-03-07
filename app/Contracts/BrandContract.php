@@ -28,6 +28,8 @@ interface BrandContract
      * @param array $params
      * @return mixed
      */
+    public functon search(array $params);
+    
     public function create(array $params);
 
     /**
